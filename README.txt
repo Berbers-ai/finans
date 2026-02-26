@@ -14,7 +14,7 @@ Wat je moet doen in je bestaande HTML (index.html):
 <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
 <meta name="theme-color" content="#0c0c0e">
 
-3) Voeg in je bestaande <script> (onderaan, of helemaal aan het einde) toe:
+3) Voeg in je bestaande <script> (onderaan., of helemaal aan het einde) toe:
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
