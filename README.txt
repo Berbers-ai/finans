@@ -6,7 +6,7 @@ Inhoud:
 - icons/ (PNG iconset + master icon.svg)
 
 Wat je moet doen in je bestaande HTML (index.html):
-1) Verwijder de inline manifest <script> in <head> (die Blob/URL.createObjectURL maakt).
+1) Verwijder de inline. manifest <script> in <head> (die Blob/URL.createObjectURL maakt).
 2) Voeg in <head> dit toe (liefst net na <title>):
 
 <link rel="manifest" href="manifest.json">
